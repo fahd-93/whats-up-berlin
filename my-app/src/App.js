@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Banner from './components/Banner/banner';
 
 import './styles/foundation.min.css';
 import './styles/custom.css';
@@ -28,6 +29,7 @@ class App extends Component {
 
           <div className="off-canvas-content" data-off-canvas-content>
             <MobileHeader name={this.state.appName} />
+            <Banner />
             <Header name={this.state.appName} />
             <Routes name={this.state.appName} />
             <hr />
