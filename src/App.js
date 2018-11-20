@@ -11,10 +11,10 @@ import MobileHeader from './components/MobileHeader/MobileHeader';
 
 class App extends Component {
 
-  constructor(){
+  constructor() {
     super();
-    this.state={
-      appName: "Banana",
+    this.state = {
+      appName: "what up Berlin!",
       home: false
     }
   }
@@ -22,19 +22,19 @@ class App extends Component {
   render() {
     return (
       <div className="off-canvas-wrapper">
-      <div className="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div className="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-     
 
-        <div className="off-canvas-content" data-off-canvas-content>
-          <MobileHeader name={this.state.appName}/>
-          <Header name={this.state.appName}/>
-          <Routes name={this.state.appName}/>
-          <hr/>
-         <Footer/>
+
+          <div className="off-canvas-content" data-off-canvas-content>
+            <MobileHeader name={this.state.appName} />
+            <Header name={this.state.appName} />
+            <Routes name={this.state.appName} />
+            <hr />
+            <Footer />
+          </div>
         </div>
       </div>
-    </div>
     );
   }
 }

@@ -5,17 +5,17 @@ body{
     min-height: 550px;
 }
 .primary{
-    background: #f2b632 !important;
+    background: #35d68b !important;
 }
 .secondery{
-    background: #2A2C43 !important;
+    background: rgb(0, 0, 0) !important;
     color:#ffffff !important;
 }
 .left{
     float:left !important;
 }
 input{
-    color:#333333 !important;
+    color:#000000 !important;
     border-radius:5px !important;
 }
 button{
