@@ -1,6 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
 
 import './Welcome.css';
+import Banner from '../../components/Banner/banner';
+
 
 class Welcome extends Component {
   render() {
@@ -8,9 +11,9 @@ class Welcome extends Component {
       <div className="row " id="Body">
         <div className="medium-12 columns">
           <h2 id="welcomeText">Make people fall in love with your ideas</h2>
-
-          <a href="/login" className="button">Login</a>
-          <a href="/signup" className="button success">Signup</a>
+          <Banner />
+          {/* <a href="/login" className="button">Login</a>
+          <a href="/signup" className="button success">Signup</a> */}
         </div>
       </div>
     );
