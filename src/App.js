@@ -5,7 +5,7 @@ import './styles/custom.css';
 import Routes from './routes';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-
+import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 import MobileHeader from './components/MobileHeader/MobileHeader';
 
 
